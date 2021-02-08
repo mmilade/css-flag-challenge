@@ -11,40 +11,46 @@
 }
 
 .german {
-
-  /* margin: 300px; */
   padding-bottom: 20px;
   position: relative;
-  left: 300px
-
+  left: 300px;
 }
 
-.german-child-one {
+.german .child-one {
   background-color: black;
   width: 200px;
+  height: 50px;
   color: black;
 }
 
-.german-child-two {
+.german .child-two {
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  color: red;
+}
+
+.german .child-three {
+  background-color: yellow;
+  width: 200px;
+  height: 50px;
+  color: yellow;
+}
+
+.german:hover .child-one {
   background-color: red;
   width: 200px;
   color: red;
 }
-
-.german-child-three {
-  background-color: yellow;
+.german:hover .child-two {
+  background-color: white;
   width: 200px;
-  color: yellow;
+  color: white;
 }
-
-.german-child-one:hover {
-  background-color: red;
+.german:hover .child-three {
+  background-color:darkgreen;
   width: 200px;
-  color: black;
-}
-
-.german:hover > german*:hover {
-  background-color: red;
+  color: darkgreen;
 }
 
 .french {
@@ -54,26 +60,42 @@
   left: 300px;
 }
 
-.french-child-one {
+.french .child-one {
   background-color: blue;
   height: 150px;
   width: 65px;
   color: black;
-  /* position: relative; */
-  /* left: 200px; */
 }
 
-.french-child-two {
+.french .child-two {
   background-color: white;
   height: 150px;
   width: 65px;
   color: red;
-  /* position: absolute; */
 }
 
-.french-child-three {
+.french .child-three {
   background-color: red;
   height: 150px;
   width: 65px;
   color: yellow;
+}
+
+.french:hover .child-one {
+  background-color: darkgreen;
+  height: 150px;
+  width: 65px;
+  color: red;
+}
+.french:hover .child-two {
+  background-color: white;
+  height: 150px;
+  width: 65px;
+  color: white;
+}
+.french:hover .child-three {
+  background-color:orange;
+  height: 150px;
+  width: 65px;
+  color: darkgreen;
 }
