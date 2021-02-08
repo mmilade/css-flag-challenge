@@ -1,0 +1,79 @@
+* {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+
+.parent {
+  background-color: skyblue;
+  padding: 20px;
+  margin: 20px;
+}
+
+.german {
+
+  /* margin: 300px; */
+  padding-bottom: 20px;
+  position: relative;
+  left: 300px
+
+}
+
+.german-child-one {
+  background-color: black;
+  width: 200px;
+  color: black;
+}
+
+.german-child-two {
+  background-color: red;
+  width: 200px;
+  color: red;
+}
+
+.german-child-three {
+  background-color: yellow;
+  width: 200px;
+  color: yellow;
+}
+
+.german-child-one:hover {
+  background-color: red;
+  width: 200px;
+  color: black;
+}
+
+.german:hover > german*:hover {
+  background-color: red;
+}
+
+.french {
+  display: flex;
+  position:relative;
+  bottom: 10px;
+  left: 300px;
+}
+
+.french-child-one {
+  background-color: blue;
+  height: 150px;
+  width: 65px;
+  color: black;
+  /* position: relative; */
+  /* left: 200px; */
+}
+
+.french-child-two {
+  background-color: white;
+  height: 150px;
+  width: 65px;
+  color: red;
+  /* position: absolute; */
+}
+
+.french-child-three {
+  background-color: red;
+  height: 150px;
+  width: 65px;
+  color: yellow;
+}
